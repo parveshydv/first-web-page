@@ -16,7 +16,7 @@ ul {
   }
 
 .box{
-    background-color: rgb(55, 64, 71);
+    background-color: rgb(43, 59, 70);
     height: 250px;
     width: 400px;
 }
@@ -118,3 +118,24 @@ flex-wrap: wrap;
 .quote .author{
     align-self: flex-end;
 }
+
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.bb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 90px;
+    background-color: #3882f6;
+    color: azure;
+
+  
+}
+
