@@ -66,7 +66,7 @@ flex-wrap: wrap;
 
 
 .subsection1{
-    background-color: rgb(32, 184, 60);
+    background-color: rgb(42, 171, 204);
     height: 400px;
 
 }
@@ -98,15 +98,23 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
     
 
 }
 
 .quote div{
-    font-size: 40px light;
+    font-size: 24px;
     font-style:  italic;
     color: #1f2937;
     
-
+    width: 650px;
     
+}
+
+
+.quote .author{
+    align-self: flex-end;
 }
