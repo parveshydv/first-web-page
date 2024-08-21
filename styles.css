@@ -16,9 +16,17 @@ ul {
   }
 
 .box{
-    background-color: rgb(43, 59, 70);
-    height: 250px;
-    width: 400px;
+    height: 300px;
+
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    border-color: rgb(226, 36, 36);
+    border: 5px;
+    border-style: solid;
+    
 }
 
 .container{
@@ -57,12 +65,7 @@ width:500px ;
 flex-wrap: wrap;
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
 
 .subsection1{
@@ -86,11 +89,13 @@ flex-wrap: wrap;
     width: 200px;
     background-color: aliceblue;
     border-color: black;
+    border: 5px;
     border-style: solid;
     border-radius: 50px;
     margin-top: 30px;
     
 }
+
 
 .quote{
     background-color: #ced0d4;
@@ -137,5 +142,9 @@ flex-wrap: wrap;
     color: azure;
 
   
+}
+
+img{
+    border-radius: 45px;
 }
 
