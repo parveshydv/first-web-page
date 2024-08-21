@@ -42,7 +42,7 @@ ul {
 }
 
 button{
-    background-color: #3882f6;
+    background-color: #3644c2;
     color: azure;
     border-radius: 10px ;
     font-family: Roboto;
@@ -69,7 +69,7 @@ flex-wrap: wrap;
 
 
 .subsection1{
-    background-color: rgb(42, 171, 204);
+    background-color: rgb(54, 21, 58);
     height: 400px;
 
 }
@@ -148,3 +148,13 @@ img{
     border-radius: 45px;
 }
 
+.Trainers{
+    display: flex;
+    color: azure;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 250px;
+    gap: 10px;
+}
